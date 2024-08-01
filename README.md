@@ -25,7 +25,7 @@ in requirements.txt
 python -m pip install -r requirements.txt
 
 
-Windows: 
+Windows:  
 3. create jy.bat file in user directory with below text:  
 cd /d d:\Ai & jupyter notebook  
 Here d:\Ai is location of notebook files.
