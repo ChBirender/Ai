@@ -33,5 +33,5 @@ Here d:\Ai is location of notebook files.
 4. run  
 .\jy
 
-Linux:
+Linux:  
 jupyter notebook 
