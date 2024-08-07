@@ -18,6 +18,7 @@ tensorflow
 jupyterlab  
 notebook  
 networkx  
+torch  
 
 in requirements.txt
 
@@ -34,4 +35,16 @@ Here d:\Ai is location of notebook files.
 .\jy
 
 Linux(ubuntu):  
-sudo apt install python3 jupyter jupyter-notebook python3-notebook python3-pandas python3-matplotlib python3-lxml python3-numpy python3-seaborn python3-networkx python3-pil python3-sklearn jupyter-server python3-opencv
+sudo apt  install python3-full python3-virtualenv
+# using virtual name as PyVenv
+virtualenv PyVenv
+source PyVenv/bin/activate
+python3 -m pip install tensorflow[and-cuda]
+python -m pip install -r requirements.txt
+
+edit ~/.bashrc
+add 
+source PyVenv/bin/activate
+in last of it
+
+source ~/.bashrc
