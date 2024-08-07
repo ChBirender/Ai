@@ -36,7 +36,7 @@ Here d:\Ai is location of notebook files.
 
 ## Linux(ubuntu):  
 sudo apt  install python3-full python3-virtualenv  
-using virtual name as PyVenv  
+***using virtual name as PyVenv***  
 virtualenv PyVenv  
 source PyVenv/bin/activate  
 python3 -m pip install tensorflow[and-cuda]  
