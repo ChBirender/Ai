@@ -2,7 +2,7 @@
 
 Install Jupyter Notebook in Python:
 
-Windows:  
+## Windows:  
 1. create requirements.text file  
 add below text:  
 
@@ -34,7 +34,7 @@ Here d:\Ai is location of notebook files.
 4. run  
 .\jy
 
-Linux(ubuntu):  
+## Linux(ubuntu):  
 sudo apt  install python3-full python3-virtualenv  
 using virtual name as PyVenv  
 virtualenv PyVenv  
