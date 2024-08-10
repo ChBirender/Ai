@@ -14,7 +14,7 @@ Pillow
 scikit-learn  
 numpy  
 seaborn  
-tensorflow  
+tensorflow[and-cuda]   
 jupyterlab  
 notebook  
 networkx  
@@ -40,7 +40,6 @@ sudo apt  install python3-full python3-virtualenv
 ***using virtual name as PyVenv***  
 virtualenv PyVenv  
 source ~/PyVenv/bin/activate  
-python3 -m pip install tensorflow[and-cuda]  
 python3 -m pip install -r requirements.txt  
 
 edit ~/.bashrc  
