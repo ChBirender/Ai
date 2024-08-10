@@ -35,6 +35,7 @@ Here d:\Ai is location of notebook files.
 .\jy
 
 ## Linux(ubuntu):  
+cd ~
 sudo apt  install python3-full python3-virtualenv  
 ***using virtual name as PyVenv***  
 virtualenv PyVenv  
