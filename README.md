@@ -41,7 +41,7 @@ sudo apt  install python3-full python3-virtualenv
 virtualenv PyVenv  
 source ~/PyVenv/bin/activate  
 python3 -m pip install tensorflow[and-cuda]  
-python -m pip install -r requirements.txt  
+python3 -m pip install -r requirements.txt  
 
 edit ~/.bashrc  
 add  
