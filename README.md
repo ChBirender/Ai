@@ -3,31 +3,10 @@
 Install Jupyter Notebook in Python:
 
 ## Windows:  
-1. create requirements.text file  
-add below text:  
-
-jupyter  
-lxml  
-matplotlib  
-pandas  
-Pillow  
-scikit-learn  
-numpy  
-seaborn  
-tensorflow[and-cuda]   
-jupyterlab  
-notebook  
-networkx  
-torch  
-
-in requirements.txt
-
-2. open cmd  
-python -m pip install -r requirements.txt
+1. python -m pip install torch fairseq tensorflow[and-cuda] torchvision torchaudio pathlib pydub librosa pandas tensorboardx jupyter lxml matplotlib pandas Pillow scikit-learn numpy seaborn jupyterlab notebook networkx
 
 
-
-3. create jy.bat file in user directory with below text:  
+2. create jy.bat file in user directory with below text:  
 cd /d d:\Ai & jupyter notebook  
 Here d:\Ai is location of notebook files.
 
@@ -40,7 +19,8 @@ sudo apt  install python3-full python3-virtualenv
 ***using virtual name as PyVenv***  
 virtualenv PyVenv  
 source ~/PyVenv/bin/activate  
-python3 -m pip install -r requirements.txt  
+python -m pip install torch fairseq tensorflow[and-cuda] torchvision torchaudio pathlib pydub librosa pandas tensorboardx jupyter lxml matplotlib pandas Pillow scikit-learn numpy seaborn jupyterlab notebook networkx
+
 
 edit ~/.bashrc  
 add  
